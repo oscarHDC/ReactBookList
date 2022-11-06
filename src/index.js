@@ -47,11 +47,25 @@ const books = [
   },
 ];
 
+/* Passing the book with MAP METHOD */
+/* function Booklist() {
+  return (
+    <section className="booklist">
+      {books.map((book, i) => {
+        //Fixing the KEY UNIQUE PROP warning
+        return <Book key={i} book={book}></Book>;
+      })}
+    </section>
+  );
+} */
+
+/* Passing the book with SPREAD OPERATOR */
 function Booklist() {
   return (
     <section className="booklist">
-      {books.map((book) => {
-        return <Book book={book}> </Book>;
+      {books.map((book, i) => {
+        //Fixing the KEY UNIQUE PROP warning
+        return <Book key={i} {...book}></Book>;
       })}
     </section>
   );
@@ -60,7 +74,6 @@ function Booklist() {
 root.render(<Booklist />);
 
 /* 
-aaa
  <Book
         img={firstBook.img}
         title={firstBook.title}

@@ -7,8 +7,9 @@
  */
 const Book = (props) => {
   console.log(props);
-  const { img, title, author, children } = props.book; //Distructuring prop parameter
-  //You have to add .book, otherwise it doesnt get the book object :(
+  const { img, title, author, children } = props; //WITH SPREAD OPERATOR NOT NEEDED
+  /* const { img, title, author, children } = props; //Distructuring prop parameter
+  //You have to add .book, otherwise it doesnt get the book object :( */
   return (
     <article className="book">
       <img src={img} alt="" />
