@@ -1,5 +1,5 @@
 //PROPS IS AN OBJECT, WHICH HAVE YOUR PARAMETERS AS OBJECTS INSIDE OF IT
-//EJ:
+//EXAMPLE:
 /* 
   <Book book = {book} shit = {"SHIT"}></Book>
   Console.log(props) = {{book}, {shit}}
