@@ -1,4 +1,4 @@
-This is my very first written code with react, nothing interesting to see here. In this little project I have learned a buch of things
+This is my very first written code with react, nothing interesting to see here. In this little project I have learned a bunch of things
 
     - React Fundamentals 
     - Setting-up react project
